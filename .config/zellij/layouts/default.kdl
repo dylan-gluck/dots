@@ -1,0 +1,170 @@
+// Default layout with zjstatus bottom bar
+// Aesthetic: hyper-minimalist, transparent, Catppuccin Macchiato palette
+
+layout {
+    default_tab_template {
+        children
+        pane size=2 borderless=true {
+            plugin location="file:~/.config/zellij/plugins/zjstatus.wasm" {
+                // zjstatus manages pane frames dynamically:
+                // single pane = no frame, multiple panes = frames on (dividers)
+                hide_frame_for_single_pane "true"
+
+                // Top border as padding — blank row above bar content
+                border_enabled  "true"
+                border_char     " "
+                border_format   ""
+                border_position "top"
+
+                // --- bar layout ---
+                format_left  "{mode}{tabs}"
+                format_right "{datetime}"
+                format_space ""
+
+                format_hide_on_overlength "true"
+                format_precedence         "lrc"
+
+                // --- color aliases (Catppuccin Macchiato) ---
+                color_text     "#cad3f5"
+                color_subtext  "#a5adcb"
+                color_overlay  "#6e738d"
+                color_green    "#a6da95"
+                color_blue     "#8aadf4"
+                color_peach    "#f5a97f"
+                color_yellow   "#eed49f"
+                color_red      "#ed8796"
+                color_mauve    "#c6a0f6"
+
+                // --- mode indicator ---
+                // Subtle colored block, no text — just a visual cue
+                mode_normal        "#[fg=$green] NORMAL "
+                mode_locked        "#[fg=$overlay] LOCKED "
+                mode_pane          "#[fg=$blue] PANE "
+                mode_tab           "#[fg=$blue] TAB "
+                mode_resize        "#[fg=$peach] RESIZE "
+                mode_move          "#[fg=$peach] MOVE "
+                mode_scroll        "#[fg=$mauve] SCROLL "
+                mode_search        "#[fg=$mauve] SEARCH "
+                mode_enter_search  "#[fg=$mauve] SEARCH "
+                mode_session       "#[fg=$yellow] SESSION "
+                mode_tmux          "#[fg=$peach] TMUX "
+                mode_rename_tab    "#[fg=$blue] RENAME "
+                mode_rename_pane   "#[fg=$blue] RENAME "
+                mode_prompt        "#[fg=$blue] PROMPT "
+                mode_default_to_mode "normal"
+
+                // --- tabs ---
+                // Clean, borderless — index and name like tmux window-status
+                tab_normal              "#[fg=$overlay] {index} {name} "
+                tab_active              "#[fg=$green,bold] {index} {name}{fullscreen_indicator}{floating_indicator}{sync_indicator}"
+                tab_active_fullscreen   "#[fg=$green,bold] {index} {name}{fullscreen_indicator}"
+                tab_active_sync         "#[fg=$green,bold] {index} {name}{sync_indicator}"
+                tab_rename              "#[fg=$peach,italic] {index} {name} "
+
+                tab_separator           "#[fg=$overlay] | "
+                tab_fullscreen_indicator " [] "
+                tab_sync_indicator       " <> "
+                tab_floating_indicator   ""
+
+                // --- datetime ---
+                // Right-aligned, dimmed — matches tmux status-right
+                datetime          "#[fg=$overlay] {format} "
+                datetime_format   "%Y-%m-%d %H:%M"
+                datetime_timezone "America/New_York"
+            }
+        }
+    }
+
+    // --- swap layouts (restored defaults) ---
+
+    swap_tiled_layout name="vertical" {
+        tab max_panes=5 {
+            pane split_direction="vertical" {
+                pane
+                pane { children; }
+            }
+        }
+        tab max_panes=8 {
+            pane split_direction="vertical" {
+                pane { children; }
+                pane { pane; pane; pane; pane; }
+            }
+        }
+        tab max_panes=12 {
+            pane split_direction="vertical" {
+                pane { children; }
+                pane { pane; pane; pane; pane; }
+                pane { pane; pane; pane; pane; }
+            }
+        }
+    }
+
+    swap_tiled_layout name="horizontal" {
+        tab max_panes=4 {
+            pane
+            pane
+        }
+        tab max_panes=8 {
+            pane {
+                pane split_direction="vertical" { children; }
+                pane split_direction="vertical" { pane; pane; pane; pane; }
+            }
+        }
+        tab max_panes=12 {
+            pane {
+                pane split_direction="vertical" { children; }
+                pane split_direction="vertical" { pane; pane; pane; pane; }
+                pane split_direction="vertical" { pane; pane; pane; pane; }
+            }
+        }
+    }
+
+    swap_tiled_layout name="stacked" {
+        tab min_panes=5 {
+            pane split_direction="vertical" {
+                pane
+                pane stacked=true { children; }
+            }
+        }
+    }
+
+    swap_floating_layout name="staggered" {
+        floating_panes
+    }
+
+    swap_floating_layout name="enlarged" {
+        floating_panes max_panes=10 {
+            pane { x "5%"; y 1; width "90%"; height "90%"; }
+            pane { x "5%"; y 2; width "90%"; height "90%"; }
+            pane { x "5%"; y 3; width "90%"; height "90%"; }
+            pane { x "5%"; y 4; width "90%"; height "90%"; }
+            pane { x "5%"; y 5; width "90%"; height "90%"; }
+            pane { x "5%"; y 6; width "90%"; height "90%"; }
+            pane { x "5%"; y 7; width "90%"; height "90%"; }
+            pane { x "5%"; y 8; width "90%"; height "90%"; }
+            pane { x "5%"; y 9; width "90%"; height "90%"; }
+            pane { x 10; y 10; width "90%"; height "90%"; }
+        }
+    }
+
+    swap_floating_layout name="spread" {
+        floating_panes max_panes=1 {
+            pane { y "50%"; x "50%"; }
+        }
+        floating_panes max_panes=2 {
+            pane { x "1%"; y "25%"; width "45%"; }
+            pane { x "50%"; y "25%"; width "45%"; }
+        }
+        floating_panes max_panes=3 {
+            pane { y "55%"; width "45%"; height "45%"; }
+            pane { x "1%"; y "1%"; width "45%"; }
+            pane { x "50%"; y "1%"; width "45%"; }
+        }
+        floating_panes max_panes=4 {
+            pane { x "1%"; y "55%"; width "45%"; height "45%"; }
+            pane { x "50%"; y "55%"; width "45%"; height "45%"; }
+            pane { x "1%"; y "1%"; width "45%"; height "45%"; }
+            pane { x "50%"; y "1%"; width "45%"; height "45%"; }
+        }
+    }
+}

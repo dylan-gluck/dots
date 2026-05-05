@@ -1,0 +1,8 @@
+{
+  "id": "c5547362c3de0fed9ee6de0a9a5b6ac4dc28d8b792d881861b618c55469283e9",
+  "source": "/Users/dylan/dotfiles/.config/zellij/plugins/zjstatus.wasm",
+  "target": "/Users/dylan/.config/zellij/plugins/zjstatus.wasm",
+  "kind": "file",
+  "addedAt": "2026-05-05T03:49:43.227Z",
+  "status": "tracked"
+}
