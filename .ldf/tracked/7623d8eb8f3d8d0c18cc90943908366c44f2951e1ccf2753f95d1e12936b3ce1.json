@@ -1,0 +1,8 @@
+{
+  "id": "7623d8eb8f3d8d0c18cc90943908366c44f2951e1ccf2753f95d1e12936b3ce1",
+  "source": "/Users/dylan/dotfiles/.config/nvim/lazy-lock.json",
+  "target": "/Users/dylan/.config/nvim/lazy-lock.json",
+  "kind": "file",
+  "addedAt": "2026-05-05T03:50:15.047Z",
+  "status": "tracked"
+}
