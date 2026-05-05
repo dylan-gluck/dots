@@ -1,0 +1,11 @@
+[[database]]
+Name = 'Local Default'
+Provider = 'postgres'
+DBName = 'postgres'
+URL = 'postgresql://dylan@localhost:5432/postgres?sslmode=disable'
+
+[[database]]
+Name = 'Local VRSS'
+Provider = 'postgres'
+DBName = 'vrss_app'
+URL = 'postgresql://vrss_app:vrss_app@localhost:5432/vrss_app?sslmode=disable'
