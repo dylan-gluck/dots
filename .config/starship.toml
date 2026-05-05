@@ -1,0 +1,34 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+[custom.jj]
+when = "jj-starship detect"
+shell = ["jj-starship"]
+format = "$output "
+
+[git_branch]
+disabled = true
+
+[git_status]
+disabled = true
+
+[git_commit]
+disabled = true
+
+[aws]
+disabled = true
+
+[package]
+disabled = true
+
+[nodejs]
+format = "$symbol"
+
+[bun]
+format = "$symbol"
+
+[deno]
+format = "$symbol"
+
+[python]
+format = "$symbol"
