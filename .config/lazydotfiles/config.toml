@@ -1,0 +1,19 @@
+[path]
+home = "/Users/dylan"
+dotfiles = "/Users/dylan/dotfiles"
+backup = "/Users/dylan/.dotfiles.bak"
+
+[discovery]
+auto_track = true
+include = [".config/**/*", ".claude/**/*", ".zshrc"]
+exclude = [".env*", "!.env.example"]
+
+[options]
+vcs = "jj"
+auto_commit = true
+auto_sync = true
+auto_sync_interval = "daily"
+remote = "git@github.com:dylan-gluck/dots.git"
+
+[experimental]
+detect_api_keys = true
