@@ -1,0 +1,8 @@
+{
+  "id": "060d341f1d0d6b9394fdd40b0452e1e3d2d9ea7f7aecb5dafc363f2d2556eb7e",
+  "source": "/Users/dylan/dotfiles/.config/mole/mole.log",
+  "target": "/Users/dylan/.config/mole/mole.log",
+  "kind": "file",
+  "addedAt": "2026-05-05T03:50:18.195Z",
+  "status": "tracked"
+}
