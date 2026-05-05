@@ -1,0 +1,8 @@
+{
+  "id": "0df50fa12bd4b3743a78abee68588e7eb81b2254827add69fcaf0b9771c42301",
+  "source": "/Users/dylan/dotfiles/.config/gh/hosts.yml",
+  "target": "/Users/dylan/.config/gh/hosts.yml",
+  "kind": "file",
+  "addedAt": "2026-05-05T03:48:21.034Z",
+  "status": "tracked"
+}
