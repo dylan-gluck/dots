@@ -1,0 +1,8 @@
+{
+  "id": "c7dc9b071461175226e9683af11060be1cb9229bc9cca8850a002d87af85975e",
+  "source": "/Users/dylan/dotfiles/.config/nvim/lua/configs/conform.lua",
+  "target": "/Users/dylan/.config/nvim/lua/configs/conform.lua",
+  "kind": "file",
+  "addedAt": "2026-05-05T03:50:16.689Z",
+  "status": "tracked"
+}
