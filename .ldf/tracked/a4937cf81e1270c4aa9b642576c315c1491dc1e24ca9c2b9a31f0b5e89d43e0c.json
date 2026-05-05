@@ -1,0 +1,8 @@
+{
+  "id": "a4937cf81e1270c4aa9b642576c315c1491dc1e24ca9c2b9a31f0b5e89d43e0c",
+  "source": "/Users/dylan/dotfiles/.config/zellij/scripts/help.sh",
+  "target": "/Users/dylan/.config/zellij/scripts/help.sh",
+  "kind": "file",
+  "addedAt": "2026-05-05T03:49:43.551Z",
+  "status": "tracked"
+}

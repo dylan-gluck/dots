@@ -1,0 +1,24 @@
+[
+	{
+		"bindings": {
+			"cmd-alt-o": [
+				"agent::NewExternalAgentThread",
+				{
+					"agent": {
+						"custom": {
+							"name": "OpenCode",
+							"command": {
+								"command": "opencode",
+								"args": ["acp"]
+							}
+						}
+					}
+				}
+			],
+			"cmd-alt-p": [
+				"task::Spawn",
+				{ "task_name": "Television File Finder", "reveal_target": "center" }
+			]
+		}
+	}
+]
