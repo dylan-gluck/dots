@@ -1,0 +1,4 @@
+[[bindings]]
+key = "KeyL"
+command = "echo 'hello world'"
+mods = ["Shift", "Control"]
