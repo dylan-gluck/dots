@@ -1,0 +1,8 @@
+{
+  "id": "3930fd31a43dea8aa21fed3a242c913bc0531c51780b0a2598b2e761223bc745",
+  "source": "/Users/dylan/dotfiles/.config/fish/completions/marimo.fish",
+  "target": "/Users/dylan/.config/fish/completions/marimo.fish",
+  "kind": "file",
+  "addedAt": "2026-05-05T03:48:09.777Z",
+  "status": "tracked"
+}
