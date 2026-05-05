@@ -1,0 +1,8 @@
+{
+  "id": "afa02023f1b7990de4320920a05de4ef3b020c9888b67684ed85e18bbda6107d",
+  "source": "/Users/dylan/dotfiles/.config/nvim/lua/configs/lspconfig.lua",
+  "target": "/Users/dylan/.config/nvim/lua/configs/lspconfig.lua",
+  "kind": "file",
+  "addedAt": "2026-05-05T03:50:16.496Z",
+  "status": "tracked"
+}
