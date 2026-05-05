@@ -1,0 +1,8 @@
+{
+  "id": "d5f72228e348872ea8a84dc69374dc17396cc36248d0bc9ebc8ce1da089b7b48",
+  "source": "/Users/dylan/dotfiles/.config/zed/tasks.json",
+  "target": "/Users/dylan/.config/zed/tasks.json",
+  "kind": "file",
+  "addedAt": "2026-05-05T03:49:45.762Z",
+  "status": "tracked"
+}
