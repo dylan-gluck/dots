@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "lines": [
+    [
+      {
+        "id": "7560527a-6dcc-47d6-9ab4-01edd43e0aef",
+        "type": "model",
+        "color": "white",
+        "rawValue": true
+      },
+      {
+        "id": "f0abc435-d6ad-466b-b2a2-993ea83606d1",
+        "type": "output-style",
+        "color": "green",
+        "rawValue": true
+      },
+      {
+        "id": "90e0515e-c4ce-4b08-9b8b-b9181b5947a8",
+        "type": "context-percentage",
+        "color": "yellow",
+        "rawValue": true,
+        "metadata": {
+          "inverse": "false",
+          "display": "slider"
+        }
+      },
+      {
+        "id": "1e92a775-7f51-4cee-8859-d18ed74149c3",
+        "type": "session-usage",
+        "color": "brightBlack",
+        "bold": false,
+        "rawValue": true,
+        "metadata": {
+          "mode": "list",
+          "hideWhenEmpty": "true",
+          "display": "slider",
+          "cursor": "true"
+        }
+      },
+      {
+        "id": "b45a4b8c-b203-4b8e-8bcf-9628f2c83f2c",
+        "type": "weekly-usage",
+        "color": "brightBlack",
+        "bold": false,
+        "rawValue": true,
+        "metadata": {
+          "display": "slider",
+          "cursor": "true"
+        }
+      },
+      {
+        "id": "5c44db4c-2002-4b58-a0c0-838be2095f18",
+        "type": "skills",
+        "color": "green",
+        "rawValue": true,
+        "metadata": {
+          "abbreviateHome": "true",
+          "segments": "1",
+          "mode": "list",
+          "hideWhenEmpty": "true"
+        }
+      }
+    ],
+    [],
+    []
+  ],
+  "flexMode": "full",
+  "compactThreshold": 60,
+  "colorLevel": 3,
+  "defaultPadding": " ",
+  "inheritSeparatorColors": true,
+  "globalBold": false,
+  "minimalistMode": false,
+  "powerline": {
+    "enabled": false,
+    "separators": [
+      ""
+    ],
+    "separatorInvertBackground": [
+      false
+    ],
+    "startCaps": [],
+    "endCaps": [],
+    "theme": "nord-aurora",
+    "autoAlign": false,
+    "continueThemeAcrossLines": false
+  }
+}
