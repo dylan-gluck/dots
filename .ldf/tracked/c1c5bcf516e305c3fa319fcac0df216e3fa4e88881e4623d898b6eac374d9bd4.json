@@ -1,0 +1,8 @@
+{
+  "id": "c1c5bcf516e305c3fa319fcac0df216e3fa4e88881e4623d898b6eac374d9bd4",
+  "source": "/Users/dylan/dotfiles/.config/nvim/lua/plugins/init.lua",
+  "target": "/Users/dylan/.config/nvim/lua/plugins/init.lua",
+  "kind": "file",
+  "addedAt": "2026-05-05T03:50:16.306Z",
+  "status": "tracked"
+}
