@@ -1,0 +1,36 @@
+{
+  "$schema": "https://charm.land/crush.json",
+  "lsp": {
+    "go": {
+      "command": "gopls",
+      "env": {
+        "GOTOOLCHAIN": "go1.25.1"
+      }
+    },
+    "typescript": {
+      "command": "typescript-language-server",
+      "args": ["--stdio"]
+    }
+  },
+  "providers": {
+    "ollama": {
+      "name": "Ollama",
+      "base_url": "http://localhost:11434/v1/",
+      "type": "openai",
+      "models": [
+        {
+          "name": "Qwen 3 30B",
+          "id": "qwen3:30b",
+          "context_window": 256000,
+          "default_max_tokens": 20000
+        },
+        {
+          "name": "GPT-OSS 20B",
+          "id": "gpt-oss:20b",
+          "context_window": 256000,
+          "default_max_tokens": 20000
+        }
+      ]
+    }
+  }
+}

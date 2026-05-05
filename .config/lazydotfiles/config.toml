@@ -5,7 +5,7 @@ backup = "/Users/dylan/.dotfiles.bak"
 
 [discovery]
 auto_track = true
-include = [".config/**/*", ".claude/**/*", ".zshrc"]
+include = [".config/**/*"]
 exclude = [".env*", "!.env.example"]
 
 [options]
