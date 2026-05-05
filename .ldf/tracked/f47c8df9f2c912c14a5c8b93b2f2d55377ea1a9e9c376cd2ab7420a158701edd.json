@@ -1,0 +1,8 @@
+{
+  "id": "f47c8df9f2c912c14a5c8b93b2f2d55377ea1a9e9c376cd2ab7420a158701edd",
+  "source": "/Users/dylan/dotfiles/.config/starship.toml",
+  "target": "/Users/dylan/.config/starship.toml",
+  "kind": "file",
+  "addedAt": "2026-05-05T02:46:11.461Z",
+  "status": "tracked"
+}
