@@ -1,0 +1,5 @@
+# Terminal
+alt + shift - return : open -a Ghostty 
+
+# Editor
+alt + shift - e : open -a Zed
