@@ -1,0 +1,8 @@
+{
+  "id": "5dbb99526a38c7e717e40065d87b2b0cd49b50509bcc8d0bdcf6ef8a961db37f",
+  "source": "/Users/dylan/dotfiles/.config/fish/config.fish",
+  "target": "/Users/dylan/.config/fish/config.fish",
+  "kind": "file",
+  "addedAt": "2026-05-05T03:48:09.104Z",
+  "status": "tracked"
+}

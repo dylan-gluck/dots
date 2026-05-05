@@ -1,0 +1,5 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR __fish_initialized:4300
+SETUVAR fish_greeting:\x1d
+SETUVAR fish_user_paths:/Users/dylan/\x2esst/bin\x1e/Users/dylan/bin\x1e/Users/dylan/\x2ebun/bin\x1e/Users/dylan/neo4j/bin\x1e/Users/dylan/Workspace/projects/spcstr/bin\x1e/Users/dylan/Library/Python/3\x2e13/bin\x1e/Users/dylan/\x2ecache/rebar3/bin\x1e/Users/dylan/go/bin\x1e/Users/dylan/\x2elocal/bin\x1e/Users/dylan/Library/pnpm\x1e/Users/dylan/\x2enpm\x2dglobal/bin
