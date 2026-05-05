@@ -1,0 +1,8 @@
+[pre-start]
+copy = "wt step copy-ignored"
+
+[post-start]
+install = "npm install && bun install"
+
+[commit.generation]
+command = "CLAUDECODE= MAX_THINKING_TOKENS=0 claude -p --no-session-persistence --model=haiku --tools='' --disable-slash-commands --setting-sources='' --system-prompt=''"
