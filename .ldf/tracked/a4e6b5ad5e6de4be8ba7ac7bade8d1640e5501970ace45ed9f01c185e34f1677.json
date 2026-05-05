@@ -1,0 +1,8 @@
+{
+  "id": "a4e6b5ad5e6de4be8ba7ac7bade8d1640e5501970ace45ed9f01c185e34f1677",
+  "source": "/Users/dylan/dotfiles/.config/nvim/lua/configs/lazy.lua",
+  "target": "/Users/dylan/.config/nvim/lua/configs/lazy.lua",
+  "kind": "file",
+  "addedAt": "2026-05-05T03:50:16.872Z",
+  "status": "tracked"
+}
