@@ -1,0 +1,8 @@
+{
+  "id": "26feebdbfaa5760925590d8b7513f4c7e65735ac16696a89cff3df4f776c40ef",
+  "source": "/Users/dylan/dotfiles/.config/fish/completions/claude-flow.fish",
+  "target": "/Users/dylan/.config/fish/completions/claude-flow.fish",
+  "kind": "file",
+  "addedAt": "2026-05-05T03:48:10.594Z",
+  "status": "tracked"
+}
