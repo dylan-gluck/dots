@@ -1,0 +1,8 @@
+{
+  "id": "4cbb398845e18beac74d992e341a9bbfefa0616832378520ad63cf0933b9a2ec",
+  "source": "/Users/dylan/dotfiles/.config/nvim/lua/options.lua",
+  "target": "/Users/dylan/.config/nvim/lua/options.lua",
+  "kind": "file",
+  "addedAt": "2026-05-05T03:50:15.951Z",
+  "status": "tracked"
+}
