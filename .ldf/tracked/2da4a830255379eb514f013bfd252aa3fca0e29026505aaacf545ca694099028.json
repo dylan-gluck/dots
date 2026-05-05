@@ -1,0 +1,8 @@
+{
+  "id": "2da4a830255379eb514f013bfd252aa3fca0e29026505aaacf545ca694099028",
+  "source": "/Users/dylan/dotfiles/.config/nvim/lua/autocmds.lua",
+  "target": "/Users/dylan/.config/nvim/lua/autocmds.lua",
+  "kind": "file",
+  "addedAt": "2026-05-05T03:50:15.627Z",
+  "status": "tracked"
+}
