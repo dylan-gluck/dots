@@ -1,0 +1,8 @@
+{
+  "id": "99db8a78189ffa185be19ffce59993ccb0d9fadf85b55efa57707c83d62f33cd",
+  "source": "/Users/dylan/dotfiles/.config/nvim/.stylua.toml",
+  "target": "/Users/dylan/.config/nvim/.stylua.toml",
+  "kind": "file",
+  "addedAt": "2026-05-05T03:50:15.437Z",
+  "status": "tracked"
+}
