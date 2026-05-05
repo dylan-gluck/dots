@@ -1,0 +1,8 @@
+{
+  "id": "e3b6f2eff3476a9b9de422c2aaba2a7886f0d67f571e11611cc3d3455f933cf1",
+  "source": "/Users/dylan/dotfiles/.config/nvim/lua/chadrc.lua",
+  "target": "/Users/dylan/.config/nvim/lua/chadrc.lua",
+  "kind": "file",
+  "addedAt": "2026-05-05T03:50:16.129Z",
+  "status": "tracked"
+}
