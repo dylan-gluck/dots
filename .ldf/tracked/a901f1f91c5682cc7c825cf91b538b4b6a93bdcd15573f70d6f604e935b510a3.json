@@ -1,0 +1,8 @@
+{
+  "id": "a901f1f91c5682cc7c825cf91b538b4b6a93bdcd15573f70d6f604e935b510a3",
+  "source": "/Users/dylan/dotfiles/.config/crush/crush.json",
+  "target": "/Users/dylan/.config/crush/crush.json",
+  "kind": "file",
+  "addedAt": "2026-05-05T14:22:53.313Z",
+  "status": "tracked"
+}

@@ -5,8 +5,8 @@ backup = "/Users/dylan/.dotfiles.bak"
 
 [discovery]
 auto_track = true
-include = [".config/**/*"]
-exclude = [".env*", "!.env.example"]
+include = [".config/**/*", ".*"]
+exclude = [".env*", "!.env.example", ".DS_Store"]
 
 [options]
 vcs = "jj"
