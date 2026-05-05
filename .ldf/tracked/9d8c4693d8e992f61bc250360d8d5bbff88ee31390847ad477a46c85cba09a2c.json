@@ -1,0 +1,8 @@
+{
+  "id": "9d8c4693d8e992f61bc250360d8d5bbff88ee31390847ad477a46c85cba09a2c",
+  "source": "/Users/dylan/dotfiles/.config/nvim/lua/mappings.lua",
+  "target": "/Users/dylan/.config/nvim/lua/mappings.lua",
+  "kind": "file",
+  "addedAt": "2026-05-05T03:50:15.789Z",
+  "status": "tracked"
+}
