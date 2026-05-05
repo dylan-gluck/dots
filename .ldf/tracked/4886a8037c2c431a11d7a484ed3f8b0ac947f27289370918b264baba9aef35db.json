@@ -1,0 +1,8 @@
+{
+  "id": "4886a8037c2c431a11d7a484ed3f8b0ac947f27289370918b264baba9aef35db",
+  "source": "/Users/dylan/dotfiles/.config/nvim/LICENSE",
+  "target": "/Users/dylan/.config/nvim/LICENSE",
+  "kind": "file",
+  "addedAt": "2026-05-05T03:50:14.863Z",
+  "status": "tracked"
+}
