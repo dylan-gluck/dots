@@ -15,6 +15,23 @@
         "rawValue": true
       },
       {
+        "id": "b68c8e7f-da70-4032-9d49-da814c9f32e1",
+        "type": "tokens-cached",
+        "rawValue": true,
+        "color": "brightBlack"
+      },
+      {
+        "id": "cc3fb1d3-0e6f-42e3-9fae-635f534d6b32",
+        "type": "tokens-input",
+        "rawValue": true,
+        "color": "yellow"
+      },
+      {
+        "id": "45e4dc3e-f803-4279-b64e-9554f9f6cfec",
+        "type": "tokens-output",
+        "rawValue": true
+      },
+      {
         "id": "90e0515e-c4ce-4b08-9b8b-b9181b5947a8",
         "type": "context-percentage",
         "color": "yellow",
