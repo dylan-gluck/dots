@@ -1,0 +1,31 @@
+[include]
+	path = ~/.config/delta/themes.gitconfig
+
+[user]
+	name = Dylan Navajas Gluck
+	email = dylan.n.gluck@gmail.com
+[init]
+	defaultBranch = main
+[core]
+	pager = delta
+	attributesfile = ~/.config/git/attributes
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	navigate = true
+	hyperlinks = true
+	features = arctic-fox
+[merge]
+	conflictStyle = zdiff3
+[merge "weave"]
+	name = Weave entity-level semantic merge
+	driver = weave-driver %O %A %B %L %P
+	recursive = binary
+[diff]
+	tool = difftastic
+[difftool]
+	prompt = false
+[difftool "difftastic"]
+	cmd = difft "$LOCAL" "$REMOTE"
+[pager]
+	difftool = true
