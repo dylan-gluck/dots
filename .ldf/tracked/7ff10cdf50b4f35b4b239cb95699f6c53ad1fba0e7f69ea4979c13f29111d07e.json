@@ -1,0 +1,8 @@
+{
+  "id": "7ff10cdf50b4f35b4b239cb95699f6c53ad1fba0e7f69ea4979c13f29111d07e",
+  "source": "/Users/dylan/dotfiles/.agents/.skill-lock.json",
+  "target": "/Users/dylan/.agents/.skill-lock.json",
+  "kind": "file",
+  "addedAt": "2026-05-09T21:33:39.714Z",
+  "status": "tracked"
+}
