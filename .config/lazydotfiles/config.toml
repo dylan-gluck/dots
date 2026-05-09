@@ -5,7 +5,7 @@ backup = "/Users/dylan/.dotfiles.bak"
 
 [discovery]
 auto_track = false
-include = [".config/**/*", ".*"]
+include = [".config/**/*", ".*", ".*/**/*"]
 exclude = [".env*", "!.env.example", ".DS_Store"]
 
 [options]
