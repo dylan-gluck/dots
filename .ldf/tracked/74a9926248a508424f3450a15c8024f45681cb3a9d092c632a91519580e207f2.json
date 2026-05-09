@@ -1,0 +1,8 @@
+{
+  "id": "74a9926248a508424f3450a15c8024f45681cb3a9d092c632a91519580e207f2",
+  "source": "/Users/dylan/dotfiles/.agents/skills/agent-sop-author/validate-sop.sh",
+  "target": "/Users/dylan/.agents/skills/agent-sop-author/validate-sop.sh",
+  "kind": "file",
+  "addedAt": "2026-05-09T21:33:40.351Z",
+  "status": "tracked"
+}
