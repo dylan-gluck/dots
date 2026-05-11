@@ -1,0 +1,8 @@
+{
+  "id": "766da1439f22985ec101626a88dd0b46fd0c57afa783d42737d4c8c50bf0dbbf",
+  "source": "/Users/dylan/dotfiles/.config/shell/env.sh",
+  "target": "/Users/dylan/.config/shell/env.sh",
+  "kind": "file",
+  "addedAt": "2026-05-11T18:34:38.658Z",
+  "status": "tracked"
+}
