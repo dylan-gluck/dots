@@ -1,0 +1,8 @@
+{
+  "id": "01d7398f511ce536000debef741ca172c750539188ad7d14991612d63dfde7a3",
+  "source": "/Users/dylan/dotfiles/.hammerspoon/Spoons/PaperWM.spoon/.github/workflows/lint.yml",
+  "target": "/Users/dylan/.hammerspoon/Spoons/PaperWM.spoon/.github/workflows/lint.yml",
+  "kind": "file",
+  "addedAt": "2026-05-11T18:32:04.174Z",
+  "status": "tracked"
+}
